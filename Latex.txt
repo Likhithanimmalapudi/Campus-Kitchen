@@ -1,0 +1,139 @@
+\documentclass{beamer}
+\usepackage{graphicx}
+\setbeamersize{text margin left=5mm,text margin right=5mm}
+\usepackage{ragged2e}\justifying
+\usetheme{Madrid}
+\title{Menu Management System}
+\usepackage{xcolor}
+\date{}
+\institute{Team-8}
+
+\begin{document}
+\begin{frame}[Regular]
+    \centering
+    \vspace{0.5cm}
+        \LARGE \textbf{\textcolor{blue}{Shri Vishnu Engineering College For Women}} \\
+        \vspace{0.3cm} 
+        \LARGE {\textcolor{magenta}{Menu Management System}}
+    \vspace{0.1cm}
+    
+    \begin{table}
+        \centering
+        \begin{tabular}{l l l }
+            { \small \textbf{Regd.No}} & {\textbf{\small  Name}} & {\textbf{\small Job Profile}} \\
+           \small 22B01A4266 & \small  M. Bhavana  & \small GIT \\
+            \small 22B01A4267 & \small M. Bhavya Sai Sri & \small laTex \\
+            \small 22B01A4274 & \small N. Likhitha & \small Frontend Developer \\
+            \small 22B01A4275 & \small P. Gayathri & \small Backend Developer\\
+            \small 22B01A4287 & \small P. Anuhya & \small Frontend Developer\\
+            \small 22B01A42B7 & \small V. Meenakshi & \small Backend Developer\\ 
+        \end{tabular}
+    \end{table}
+    \vspace{0.8cm}
+\end{frame}
+
+\begin{frame}[t]{Introduction}
+\setbeamerfont{Introduction}{ series=\bfseries, shape=\slshape}
+\vspace{0.8cm}
+    \begin{itemize}
+        \item This project is used for the benefit of the student to select their own menu in their hostel.
+        \vspace{0.5cm}
+        \item In this project we will display the available menu, so that the student can select their desired dish.
+        \vspace{0.5cm}
+        \item From their selection the admin will get the majority poll details of their dishes.
+        \vspace{0.5cm}
+        \item  And that menu will be decided for the next day.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[t]{Approach of the interface}
+\vspace{0.8cm}
+    \begin{itemize}
+        \item The first window will have the login page for both student and for admin.
+        \vspace{0.4}
+    \item The connecting page will have the selection of the day.
+    \vspace{0.4cm}
+    \item Then the connecting page will contain the menu along the dishes which are selected.
+    \vspace{0.4cm}
+    \item The final menu will be displayed for the next day.
+    \end{itemize}
+    
+    
+\end{frame}
+
+\begin{frame}{First Page of our interface}
+    \textbf{Login page} - Admins and Students can login with their respective userID's and passwords
+    \begin{center}
+        \includegraphics[width=0.8\textwidth,height=30\textheight,keepaspectratio]{loginpage1.jpg}
+    \end{center}
+    
+\end{frame}
+
+\begin{frame}{Admin page}
+    \textbf{Admin} - Checks the majority dishes submitted by students after selecting the day
+    \begin{center}
+        \includegraphics[width=0.8\textwidth,height=30\textheight,keepaspectratio]{weekselection.jpg}
+    \end{center}
+    
+\end{frame}
+
+\begin{frame}{Student pages}
+    \textbf{Week Selection page} - students have to select the the day of the week.
+    \begin{center}
+        \includegraphics[width=0.8\textwidth,height=30\textheight,keepaspectratio]{weekselection1.jpg}
+    \end{center}
+    
+\end{frame}
+
+\begin{frame}{Dishes Submission Page}
+    \textbf{Students} - students have to choose their desired dish and submit
+    \begin{center}
+        \includegraphics[width=0.8\textwidth,height=30\textheight,keepaspectratio]{menumanagement.jpg}
+    \end{center}
+    
+\end{frame}
+
+\begin{frame}[t]{Uniqueness in this project}
+\vspace{0.8cm}
+    \begin{itemize}
+        \item It is more convenient for both the student and the menu management to plan for the menu.
+        \vspace{0.4cm}
+    \item It allows for easy customization of menus according to specific needs
+    \vspace{0.4cm}
+    \item It reduces the food wastage.
+    \end{itemize}
+    \begin{center}
+        \includegraphics[width=0.5\textwidth,height=0.5\textheight,keepaspectratio]{}
+    \end{center} 
+\end{frame}
+
+\begin{frame}[t]{Tech Stack}
+\vspace{0.8cm}
+    \begin{itemize}
+        \item \textbf{Python} - Primary Programming Language
+        \vspace{0.4cm}
+        \item \textbf{Tkinter} - The Standard GUI for Python
+        \vspace{0.4cm}
+        \item \textbf{SQLite3} - Database Management
+        \vspace{0.4cm}
+        \item \textbf{laTex} - For documentation Purpose
+        \vspace{0.4cm}
+        \item \textbf{Link to our github repository: }https://gitlab.com/bhavana.matta2004/menumanage.git
+        
+        \vspace{0.8cm}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[t]{Conclusion}
+\vspace{0.8cm}
+    \begin{itemize}
+        \item This website is useful for the both students and chef
+        \vspace{0.4cm}
+        \item Here students can select their desired dish.
+        \vspace{0.4cm}
+        \item The chef can cook according to the student wish
+        
+        \vspace{0.8cm}
+    \end{itemize}
+\end{frame}
+\end{document}
